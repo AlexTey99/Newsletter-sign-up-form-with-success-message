@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+  <link rel="stylesheet" href="index.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div id="segundaryContainer" class="segundary-container">
+    <img class="img-segundary" src="./assets/images/icon-list.svg" alt="">
+    <p class="tittle-segundary-thancks">Thanks for subscribing!</p>
+    <br>
+    <p class="paragraph-segundary">A confirmation email has been sent to <span style="color:black">
+        ash@loremcompany.com.</span>
+      Please open it and click the button inside to confirm your subscription.</p>
+    <button class="dismiss-message"> Dismiss message</button>
+  </div>
+
+
+  <div id="mainContainer" class="main-container">
+    <div class="left-container">
+      <h1>Stay updated!</h1>
+      <br>
+      <p class="Join">Join 60,000+ product managers receiving monthly updates on:</p>
+      <div class="midle-container">
+        <div class="first-container">
+          <img class="approval" src="./assets/images/icon-list.svg" alt="">
+          <p>Product discovery and building what matters</p>
+        </div>
+        <div class="second-container">
+          <img class="approval" src="./assets/images/icon-list.svg" alt="">
+          <p>Measuring to ensure updates are a success</p>
+        </div>
+        <div class="third-container">
+          <img class="approval" src="./assets/images/icon-list.svg" alt="">
+          <p>And much more!</p>
+        </div>
+      </div>
+      <div class="Email-container">
+        <div class="email-and-error">
+          <p class="tittle-email">Email address</p>
+          <p id="error" class="error">Valid email required</p>
+        </div>
+
+        <input id="inputEmail" class="input-email" type="email" placeholder="email@company.com">
+        <button onclick="Email(),verificateEmail()" class="subscribe-month">Subscribe to monthly newsletter</button>
+      </div>
+    </div>
+    <div class="right-container">
+      <img class="img-right-desktop" src="./assets/images/illustration-sign-up-desktop.svg" alt="image">
+      <img class="img-right-mobile" src="./assets/images/illustration-sign-up-mobile.svg" alt="">
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
