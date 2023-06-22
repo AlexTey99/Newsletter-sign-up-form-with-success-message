@@ -11,6 +11,7 @@ body{
     align-items: center;
     background: hsl(235, 18%, 26%);
     font-family: "roboto",sans-serif;
+    color: hsl(243.53deg 9.6% 34.71%);
 
     @media screen and (max-width: 375px){
         background: white;
@@ -88,7 +89,7 @@ body{
     display: flex;
     height: 400px;
     width: 600px;
-    padding: 15px;
+    padding: 10px 20px 10px 25px;
     background: white;
     border-radius: 20px;
 
@@ -101,7 +102,6 @@ body{
 
     .left-container{
         flex: 1;
-        margin-left: 25px;
 
         @media screen and (max-width: 375px){
             margin-top: -100px;
@@ -111,6 +111,7 @@ body{
         h1{
             margin-top: 30px;
             font-size: 40px;
+            color: black;
 
             @media screen and (max-width: 375px){
                 margin-top: -10px;       
@@ -162,9 +163,9 @@ body{
                 gap: 90px;
 
                 .tittle-email{
-                    font-size: 12px;
+                    font-size: 9px;
                     margin-bottom: 3px;
-                    margin-top: 10px;
+                    margin-top: 20px;
                 }
 
                 .error{
@@ -185,10 +186,13 @@ body{
             }
     
             .input-email{
+                height: 35px;
                 width: 240px;
                 padding: 10px;
+                font-size: 10px;
                 border-radius: 5px;
-                margin-bottom: 20px;
+                margin-bottom: 15px;
+                border: 1px solid darkgrey;
 
                 @media screen and (max-width: 375px){
                     width: 300px;
@@ -199,7 +203,7 @@ body{
             .subscribe-month{
                 color: white;
                 width: 240px;
-                height: 35px;
+                height: 40px;
                 border: none;
                 font-size: 11px;
                 border-radius: 5px;
