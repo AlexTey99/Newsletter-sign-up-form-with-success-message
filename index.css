@@ -107,7 +107,7 @@ body {
 @media screen and (max-width: 375px) {
   .main-container .left-container {
     margin-top: -100px;
-    padding: -1px 14px 24px 10px;
+    margin-left: 20px;
   }
 }
 .main-container .left-container h1 {
@@ -158,6 +158,7 @@ body {
 }
 .main-container .left-container .Email-container .email-and-error {
   display: flex;
+  width: 100%;
   gap: 90px;
 }
 .main-container .left-container .Email-container .email-and-error .tittle-email {
@@ -166,9 +167,15 @@ body {
   margin-top: 20px;
   font-weight: 700;
 }
+@media screen and (max-width: 375px) {
+  .main-container .left-container .Email-container .email-and-error .tittle-email {
+    font-size: 11px;
+  }
+}
 .main-container .left-container .Email-container .email-and-error .error {
   display: none;
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-left: 30px;
   font-size: 9px;
   color: red;
 }
