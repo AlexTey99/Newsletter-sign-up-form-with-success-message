@@ -153,6 +153,12 @@ body {
 .main-container .left-container .approval {
   width: 15px;
 }
+@media screen and (max-width: 375px) {
+  .main-container .left-container .approval {
+    width: 18px;
+    margin-bottom: auto;
+  }
+}
 .main-container .left-container .Email-container {
   margin-top: 10px;
 }

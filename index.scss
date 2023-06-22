@@ -153,6 +153,11 @@ body{
 
         .approval{
             width: 15px;
+
+            @media screen and (max-width: 375px){
+                width: 18px;
+                margin-bottom: auto;
+            }
         }
 
         .Email-container{
